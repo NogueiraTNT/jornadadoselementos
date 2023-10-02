@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:ital,wght@0,500;0,700;0,800;1,500;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Game - A Jornada dos Elementos</title>
+</head>
+<body>
+    <div class="container" id="telaInicio">
+        <div id="headerInicio"></div>        
+        <div class="main" id="main">
+            <h1>Qual nome do seu Personagem</h1>
+            <input type="text" id="nomePersonagem" class="caixaText">
+            <input type="button" value="Avancar" class="btn" onclick="avancar()">
+        </div>
+        <div class="ini" id="btnInicio">
+            <h1>Iniciar Game</h1>
+            <input type="button" value="Iniciar" class="btn" onclick="iniciarGame()" >
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
